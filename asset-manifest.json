@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/capture-website-react/static/js/main.500ae46d.chunk.js",
+    "main.js.map": "/capture-website-react/static/js/main.500ae46d.chunk.js.map",
+    "runtime-main.js": "/capture-website-react/static/js/runtime-main.7fc42f48.js",
+    "runtime-main.js.map": "/capture-website-react/static/js/runtime-main.7fc42f48.js.map",
+    "static/js/2.9d6df7d8.chunk.js": "/capture-website-react/static/js/2.9d6df7d8.chunk.js",
+    "static/js/2.9d6df7d8.chunk.js.map": "/capture-website-react/static/js/2.9d6df7d8.chunk.js.map",
+    "index.html": "/capture-website-react/index.html",
+    "precache-manifest.ff18ea9f4e7fcdd76bdcb1eb7be30d6b.js": "/capture-website-react/precache-manifest.ff18ea9f4e7fcdd76bdcb1eb7be30d6b.js",
+    "service-worker.js": "/capture-website-react/service-worker.js",
+    "static/js/2.9d6df7d8.chunk.js.LICENSE.txt": "/capture-website-react/static/js/2.9d6df7d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fc42f48.js",
+    "static/js/2.9d6df7d8.chunk.js",
+    "static/js/main.500ae46d.chunk.js"
+  ]
+}
