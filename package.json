@@ -2,7 +2,6 @@
   
   "homepage": "http://balajinikhil.github.io/capture-website-react",
   "name": "capture-screen",
-  "proxy": "https://cors-anywhere.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

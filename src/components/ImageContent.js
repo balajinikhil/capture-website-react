@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 
 const ImageContent = (props) =>{
 
-console.log(props);
+
 
     const loading = ()=>{
         return(
@@ -21,7 +21,7 @@ console.log(props);
         )
     }
 
-    if(props.capture.length > 0){
+    if(!props.capture.includes('Error') && props.capture.length > 0 ){
     return(
         <div>
             <div className="ui segment">
@@ -34,8 +34,17 @@ console.log(props);
             </div>
         </div>
     )
+    }else if(props.capture.includes('Error')){
+       return (
+        <div className="ui negative message">
+        <div className="header">
+          Something Went wrong !
+        </div>
+        <p>The website is blocking this feature </p>
+        </div>
+       )
     }else{
-       return loading()
+        return loading()
     }
 }
 

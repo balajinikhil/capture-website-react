@@ -6,7 +6,7 @@ import {captureScreen, formatUpdate} from './../actions'
 
 class SearchBar extends React.Component{
 
-    state={term:"", format:"PNG", viewport:"1440x900", delay:0 }
+    state={term:"", format:"png", viewport:"1440x900", delay:0 }
 
     onFormSubmit = (e)=>{
             e.preventDefault()
@@ -40,10 +40,8 @@ class SearchBar extends React.Component{
                                 <select onChange={e=>{
                                         this.setState({format:e.target.value})
                                 }}>
-                                    <option value="PNG">PNG</option>
-                                    <option value="JPEG">JPEG</option>
-                                    <option value="GIF">GIF</option>
-                                    <option value="JPG">JPG</option>
+                                    <option value="png">PNG</option>
+                                    <option value="jpeg">JPEG</option>
                                 </select>
                             </div>
                     </div>
@@ -55,7 +53,7 @@ class SearchBar extends React.Component{
                                 <select onChange={e=>{
                                         this.setState({viewport:e.target.value})
                                 }}>
-                                    <option value="1440x900">Macbook 13</option>
+                                    <option value="1440">Macbook 13</option>
                                     <option value="320x480">iPhone 4 S</option>
                                     <option value="320x568">iPhone 5 </option>
                                     <option value="375x667">iPhone 6</option>
