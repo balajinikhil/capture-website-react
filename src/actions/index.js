@@ -7,7 +7,7 @@ export const captureScreen = (url, format, viewport, delay)=> async dispatch =>{
 
     const response = await captureAPI.get('/v1/urltoimage', {
         params:{
-            access_key:"8d621229f2ad44e1a64df25c7fd2bf74",
+            access_key:"<YOUR_API_KEY>",
             url:url,
             full_page:true,
             scroll_page:true,
